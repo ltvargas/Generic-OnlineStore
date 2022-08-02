@@ -11,13 +11,17 @@ import { FormsModule } from '@angular/forms';
 import { ProductComponent } from './components/product/product.component';
 import { ProductsComponent } from './components/products/products.component';
 import { NavComponent } from './components/nav/nav.component';
+import { ResversePipe } from './pipes/resverse.pipe';
+import { TimeAgoPipe } from './pipes/time-ago.pipe';
 @NgModule({
   declarations: [
     AppComponent,
     ImgComponent,
     ProductComponent,
     ProductsComponent,
-    NavComponent
+    NavComponent,
+    ResversePipe,
+    TimeAgoPipe
   ],
   imports: [
     BrowserModule,

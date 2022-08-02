@@ -12,30 +12,40 @@ export class ProductsComponent implements OnInit {
   myShoppingCart: Product[] = [];
   total = 0;
   products: Product[] = [];
-  /*products: Product[] = [
+  today = new Date(2050, 1, 1);
+  date = new Date(2021, 1, 21);
+   /* products: Product[] = [
     {
       id:     '1',
-      name:   'Set de Brochas',
+      title:   'Set de Brochas',
       image:  '../../../assets/image/brochas.jpg',
-      price:  150
+      price:  150,
+      description: "",
+      category: '',
     },
     {
       id:     '2',
-      name:   'Labial MatePink',
+      title:   'Labial MatePink',
       image:  '../../../assets/image/labial.jpg',
-      price:  15
+      price:  15,
+      description: "",
+      category: '',
     },
     {
       id:     '3',
-      name:   'Paleta de sombras calidas',
+      title:   'Paleta de sombras calidas',
       image:  '../../../assets/image/paleta-sombras.jpg',
-      price:  100
+      price:  100,
+      description: "",
+      category: '',
     },
     {
       id:     '4',
-      name:   'Delineador negro',
+      title:   'Delineador negro',
       image:  '../../../assets/image/delineador.jpg',
-      price:  12
+      price:  12,
+      description: "",
+      category: '',
     }
   ];*/
 
